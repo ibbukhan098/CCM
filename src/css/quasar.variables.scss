@@ -1,0 +1,69 @@
+// Quasar SCSS (& Sass) Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass/SCSS variables found in Quasar's source Sass/SCSS files.
+
+// Check documentation for full list of Quasar variables
+
+// Your own variables (that are declared here) and Quasar's own
+// ones will be available out of the box in your .vue/.scss/.sass files
+
+// It's highly recommended to change the default colors
+// to match your app's branding.
+// Tip: Use the "Theme Builder" on Quasar's documentation website.
+
+$primary   : #5a68c2;
+$secondary : #e7eaff;
+$accent    : #5a68c2;
+
+$dark      : #1D1D1D;
+
+$positive  : #21BA45;
+$negative  : #F55b5b;
+$info      : #31CCEC;
+$warning   : #F2C037;
+$violet    : #DF99CA;
+$light-green : #7CF29C;
+$blue      : #4C84FF;
+$red       : #F0404C;
+$yellow    : #d8fa08;
+$yarrow    : #fdcb6e;
+$white     : #ffffff;
+
+//Title Font
+$font-family-title : 'Poppins', sans-serif;;
+$font-family-light : 'nexa-light';
+
+
+//Custom Added
+$placeholder : #c1c5df;
+$icon : #cbd2ff;
+$light-text: #9293b1;
+$background: #fafbfc;
+$primary-text: #2c3f5e;
+$secondary-text: #6c717a;
+$border-color:#ced4da;
+$boxshadow:  rgb(90 104 194 / 30%) 0px 4px 12px;
+$text-color:#212529;
+$primary-border: inset 0 -0.175em white, inset 0 -0.3em $primary;
+$white-border: inset 0 -0.175em white, inset 0 -0.3em $white;
+// $text-color:#494949;
+$white-light-text : #e4e4de;
+$text-muted: #6c757d;
+$background-light: #f7f7f7;
+//radius
+
+$border-radius: 1rem;
+
+
+//font
+
+$titleFontSize: 1rem;
+
+//plan
+
+$dark-font: #02044a;
+$subtitle-font: #232561;
+$para-plan: #717199;
+$icon: #aeafc5;
+$feature: #595a88;

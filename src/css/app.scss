@@ -1,0 +1,520 @@
+// app global css in SCSS form
+
+@font-face {
+  font-family: nexa;
+  src: url("../assets/fonts/Nexa_Bold.otf");
+}
+@font-face {
+  font-family: nexa-light;
+  src: url("../assets/fonts/Nexa_Light.otf");
+}
+.notifyClass{
+  margin-top: 50px;
+}
+
+.notifyClass .q-notification__wrapper {
+  margin-left: 15px;
+  margin-right: 18px;
+}
+
+body {
+  color: $text-color;
+  font-family: $font-family-title;
+}
+
+.fixed-center, .absolute-center{
+  top:44%;
+}
+
+// .q-btn{
+//   background-color: $btn-color;
+// }
+
+.cp{
+  cursor: pointer;
+}
+
+//Rules error message font size
+.q-field__bottom{
+  font-size: 11px;
+  padding: 8px 3px 0 !important;
+}
+
+.text-color {
+  color: $text-color;
+}
+.background-color {
+  background-color: $background;
+}
+.primary-color {
+  color: $primary !important;
+}
+.shopify-color{
+  color:#95bf47;
+  background-color: #95bf47;
+}
+
+.woo-color{
+  color:#8c62bc;
+  background-color: #8c62bc;
+}
+
+.passdivPosition{
+  position: absolute;
+  top: -190%;
+  right: -5%;
+  border-radius: 15px;
+}
+
+.f-12{
+  font-size: 12px;
+}
+
+.f-14{
+  font-size: 14px !important;
+}
+
+.f-20{
+  font-size: 20px;
+}
+
+.w-25{
+  width:80px;
+}
+
+.anchor-link{
+  color: #6c717a;
+  &:hover{
+    // text-decoration: underline;
+    color: #5688e6;
+  }
+}
+
+.modal-text {
+  font-size: 12px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 4px;
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+  background-color: $placeholder;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+  background-color: $primary;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 4px;
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+  background-color: $primary;
+}
+
+.full-width {
+  height: 47px;
+}
+//Overwritten Files
+//Form Height
+.q-gutter-y-md > *,
+.q-gutter-md > * {
+  margin-top: 10px;
+}
+
+.q-tabs--vertical .q-tab__indicator {
+  width: 8px;
+}
+
+.text-h3 {
+  margin-bottom: 8px;
+  font-size: 36px;
+  font-family: $font-family-title;
+}
+.text-nexa{
+  font-family: $font-family-title;
+}
+.text-p {
+  font-family: $font-family-light;
+}
+
+.text-light {
+  color: $white-light-text;
+}
+
+.light {
+  color: $light-text;
+}
+.primary-text{
+  color:$primary-text
+}
+.secondary-text{
+  color:$secondary-text
+}
+.border-color{
+  border: 1px solid $border-color;
+}
+.box-shadow {
+  box-shadow: $boxshadow;
+}
+.box-shadow-menu {
+  box-shadow: 0 1px 8px 0 rgba(192, 192, 192, 0.5);
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: $primary;
+  transition: 0.3s;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+::-webkit-input-placeholder {
+  /* Edge */
+  color: $placeholder !important;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: $placeholder !important;
+}
+
+::placeholder {
+  color: $placeholder !important;
+}
+
+.bg-light{
+  background-color: $background-light;
+}
+
+//Auth Start
+
+.authBody {
+  height: 100%;
+  background-color: $background;
+  overflow: hidden;
+  .q-splitter__before,
+  .q-splitter__after {
+    overflow: unset;
+  }
+  .mt-50 {
+    margin-top: 55%;
+  }
+  .pt-30 {
+    padding-top: 30%;
+  }
+  .pt-50 {
+    padding-top: 55%;
+  }
+  .q-panel-parent {
+    overflow: visible;
+    .scroll {
+      overflow: unset;
+    }
+  }
+  .q-tab {
+    padding: 40px 20px;
+    .q-tab__icon {
+      width: 40px;
+      height: 40px;
+      font-size: 40px;
+    }
+  }
+  .q-tab-panel {
+    padding: unset;
+  }
+
+  .loginLeftImg {
+    position: absolute;
+    top: -7%;
+    left: -9%;
+    width: 30%;
+  }
+  .loginRightImg {
+    position: absolute;
+    bottom: -14%;
+    right: -7%;
+    width: 30%;
+  }
+  .splitterDiv {
+    height: 400px;
+    width: 80%;
+  }
+  .loginWidth {
+    width: 85%;
+  }
+  .forgotWidth {
+    width: 76%;
+  }
+  .absolute-right {
+    left: 0;
+  }
+  .q-splitter__panel {
+    width: 10% !important;
+  }
+}
+
+.q-stepper--horizontal .q-stepper__step-inner{
+  padding: 24px 24px 0px 24px;
+}
+
+.w-65{
+  width:65%;
+  margin: 0 auto;
+}
+
+
+.q-tab__label{
+  letter-spacing: 0.2px;
+}
+//Auth End
+
+//.q-tab,
+ .active-bg{
+  background-color: $background;
+}
+// .border{
+//   border: 1px solid $border-color;
+// }
+
+.q-notification{
+  font-size: 12px;
+  margin-top: 26px;
+  padding: 3px 76px;
+}
+
+// Table CSS
+table th {
+  color: $primary-text;
+}
+table td {
+  color: $secondary-text;
+}
+.catalogLogo {
+    max-width: 100px;
+    max-height: 35px;
+}
+.norecords{
+  font-family: $font-family-title;
+  font-size: 15px;
+  color: #161616;
+  padding: 20px;
+}
+
+.q-dialog__inner > div{
+  box-shadow: none !important;
+}
+
+// Table CSS End
+
+
+.lh-1{
+  line-height: 1;
+}
+
+.bg-violet{
+  background: $violet;
+}
+
+.bg-light-green{
+  background: $light-green;
+}
+
+.bg-blue{
+  background: $blue;
+}
+
+.bg-red{
+  background: $red;
+}
+
+.bg-yellow{
+  background: $yellow;
+}
+
+.bg-yarrow{
+  background: $yarrow;
+}
+
+.border-radius{
+  border-radius:$border-radius;
+}
+
+.text-muted{
+  color: $text-muted;
+}
+
+.table-title{
+  font-size: $titleFontSize;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+}
+
+.q-table {
+    th{
+      font-size: 0.9rem;
+      letter-spacing: 0.4px;
+      font-family: $font-family-title;
+      }
+    td{
+      font-size: 0.9rem !important;
+      color: $text-muted !important;
+    }
+    }
+    .sticky-table thead{
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        background: white;
+    }
+  .q-field--outlined .q-field__control:hover:before{
+    border: 1px solid #ced4da;
+  }
+
+
+
+//Text styles
+// @mixin titleUnderline($width){
+//   padding: 30px 0 8px;
+//   position: relative;
+//   &::before {
+//     content: "";
+//     position: absolute;
+//     left: 8%;
+//     bottom: 15px;
+//     width: $width;
+//     height: 3px;
+//     transform: skew(-12deg) translateX(-50%);
+//     background: $primary;
+//     z-index: -1;
+//   }
+// }
+
+.titleUnderline{
+  padding: 30px 0 8px;
+  position: relative;
+  background-size: 1px 1em;
+  box-shadow: $primary-border;
+  display: inline;
+}
+
+// @mixin virtual-scroller-table($max-height) {
+//     max-height: $max-height;
+//     tr th{
+//       position: sticky;
+//       z-index: 2;
+//       background: #fff;
+//     }
+//     thead tr:last-child th{
+//       top: 48px;
+//       z-index: 3;
+//     }
+//     thead tr:first-child th{
+//       top: 0;
+//       z-index: 1;
+//     }
+//     tr:first-child th:first-child{
+//       z-index: 3;
+//     }
+//     td:first-child{
+//       z-index: 1;
+//     }
+//     td:first-child, th:first-child{
+//       position: sticky;
+//       left: 0;
+//     }
+// }
+
+
+//Catalog Changes
+.q-img__content > div {
+  pointer-events: none;
+  position: unset;
+  padding: 0;
+  background: none;
+}
+.noImage{
+width: 42px;
+}
+
+.q-item__section--avatar{
+  min-width: unset !important;
+}
+
+.introjs-tooltipReferenceLayer *{
+  font-family: $font-family-title !important;
+}
+
+.introjs-helperLayer{
+  box-shadow: rgb(80 96 153 / 80%) 0px 0px 1px 2px, rgb(33 33 33 / 50%) 0px 0px 0px 5000px !important;
+}
+
+.introjs-tooltip{
+  font-family: $font-family-title !important;
+    left: 50%;
+    top: 50%;   
+    min-width: 500px;
+    max-width: 500px;
+    // margin-left: -277px;
+    // margin-top: -300px;
+    .introjs-tooltip-header{
+      background: #5a68c2;
+      color: white;
+      padding: 7px 20px !important;
+      .introjs-skipbutton{
+        color: $white;
+        padding: 7px 1px;
+      }
+    }
+    .introjs-nextbutton{
+      background-color: $primary;
+      text-shadow: none;
+      color: $white;
+      &:focus{
+        box-shadow: none;
+        border: none;
+      }
+    }
+}
+
+.leftAlign{
+  left: -65% !important;
+}
+
+// .q-toggle__track{
+//   // height: 1.35em;
+//   opacity: 1.54 !important;
+// }
+
+.q-toggle__inner--truthy {
+  .q-toggle__thumb {
+    .q-icon {
+      color: #161616;
+    }
+  }
+} 
+
+.text-negative {
+  color: #e90505 !important;
+}
+
+.q-field--error .q-field__bottom {
+  color: #e90505 !important;
+}
